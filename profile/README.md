@@ -50,10 +50,10 @@ K11 Software Solutions is built on the belief that **quality is a shared respons
 
 ## 🔗 Get in Touch
 
-- 🌐 [Website](#)  
-- 📧 Email: `kavita.jadhav.sdet@gmail.com`  
-- 🧑‍💻 [GitHub](https://github.com/kavitaj11)  
-- 💼 [LinkedIn](https://www.linkedin.com/in/kavita-jadhav-tech/)  
+- 🔗 Website: [softwaretestautomation.org](https://www.softwaretestautomation.org/)  
+- ✉️ Email: `kavita.jadhav.sdet@gmail.com`  
+- 🧑‍💻 GitHub: [kavitaj11](https://github.com/kavitaj11)  
+- 💼 LinkedIn: [Kavita Jadhav](https://www.linkedin.com/in/kavita-jadhav-tech/)
 
 ---
 
