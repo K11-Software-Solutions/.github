@@ -11,9 +11,6 @@ We specialize in helping teams and individuals build real-world skills and scala
 ### ➤ Full-Stack Test Automation  
 UI, API, database, and cloud-based validation — aligned with enterprise workflows
 
-### ➤ SaaS & Salesforce QA  
-Custom automation strategy tailored for fast-paced, CI-integrated product teams
-
 ### ➤ AI/ML in Testing  
 Model-based test design, Gherkin scenario generation, and intelligent test workflows
 
