@@ -1,4 +1,4 @@
-# 💡🧠 K11 Software Solutions
+# 💡K11 Software Solutions
 
 **K11 Software Solutions** is a consulting and training practice led by a seasoned **Test Automation Architect** and **Full-Stack Engineer** with over **11 years of industry experience**.
 
