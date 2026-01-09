@@ -48,7 +48,7 @@ K11 Software Solutions is built on the belief that **quality is a shared respons
 ## 🔗 Get in Touch
 
 - 🔗 Website:
-- [k11softwaresolutions.com(https://k11softwaresolutions.com/)  
+- [k11softwaresolutions.com](https://k11softwaresolutions.com/)  
 - [softwaretestautomation.org](https://www.softwaretestautomation.org/)  
 - ✉️ Email: `kavita.jadhav.sdet@gmail.com`  
 - 🧑‍💻 GitHub: [kavitaj11](https://github.com/kavitaj11)  
