@@ -1,3 +1,5 @@
+![Developer × Researcher: Building production-grade AI Assurance](assets/K11_Hero_banner.png)
+
 # 💡K11 Software Solutions
 
 **K11 Software Solutions** is a consulting and training practice led by a seasoned **Test Automation Architect** and **Full-Stack Engineer** with over **12+ years of industry experience**.
