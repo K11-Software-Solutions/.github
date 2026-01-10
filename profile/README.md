@@ -1,4 +1,4 @@
-![Developer × Researcher: Building production-grade AI Assurance](assets/K11_Hero_banner.png)
+![Developer × Researcher: Building production-grade AI Assurance](../assets/K11_Hero_banner.png)
 
 # 💡K11 Software Solutions
 
@@ -43,7 +43,7 @@ K11 provides tailored support through:
 
 **Empowering teams to build quality software — and the skills to sustain it.**
 
-K11 Software Solutions is built on the belief that **quality is a shared responsibility** and a **strategic enabler**. We bring together technical consulting, automation strategy, and engineer-focused training — customized for Agile, SaaS, and high-compliance environments.
+K11 Software Solutions is built on the belief that **quality is a shared responsibility** and a **strategic enabler**. We bring together technical consulting, automation strategy, and engineer-focused training to help teams deliver better software, faster.
 
 ---
 
@@ -58,4 +58,4 @@ K11 Software Solutions is built on the belief that **quality is a shared respons
 
 ---
 
-> _Let’s build quality — and the teams who can own it._
+> _Let's build quality — and the teams who can own it._
