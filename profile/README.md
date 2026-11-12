@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/K11-Software-Solutions/.github/main/assets/K11_Hero_banner.png" alt="K11 Software Solutions — AI-Powered Software and Digital Platforms" width="100%">
+<img src="https://raw.githubusercontent.com/K11-Software-Solutions/.github/main/assets/K11_Hero_banner.png" alt="K11 Tech Lab — Test AI systems like you test software: an AI quality gate passing five checks and catching one failure" width="100%">
 
 # K11 Tech Lab
 
