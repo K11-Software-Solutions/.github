@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/K11-Software-Solutions/.github/main/assets/K11_Hero_banner.png" alt="K11 Tech Lab — Developer × Researcher: building production-grade AI assurance" width="100%">
+<img src="https://raw.githubusercontent.com/K11-Software-Solutions/.github/main/assets/K11_Hero_banner.png" alt="K11 Software Solutions — AI-Powered Software and Digital Platforms" width="100%">
 
 # K11 Tech Lab
 
