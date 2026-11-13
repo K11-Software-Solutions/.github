@@ -17,6 +17,27 @@ Every lab runs locally with **no API key**. Clone, `pytest`, and watch an AI sys
 
 ---
 
+## 🤖 MCP servers for QA teams
+
+Give Claude (or any MCP client) QA tools it can't fake. Each server checks its work against the real system and leaves evidence a reviewer can follow.
+
+| Server | What it does | Get it |
+|---|---|---|
+| **[k11 Playwright QA](https://github.com/K11-Software-Solutions/k11techlab-playwright-qa-mcp)**<br>[![Glama](https://glama.ai/mcp/servers/K11-Software-Solutions/k11techlab-playwright-qa-mcp/badges/score.svg)](https://glama.ai/mcp/servers/K11-Software-Solutions/k11techlab-playwright-qa-mcp) | Turns user stories into Playwright tests with locators verified on the live page. When a redesign breaks them, heals each locator with a confidence score, reasons and the runner-up, and `heal-ci` opens a pull request with an audit report. | [![npm](https://img.shields.io/npm/v/k11-playwright-qa-mcp?label=npm)](https://www.npmjs.com/package/k11-playwright-qa-mcp)<br>`npx -y k11-playwright-qa-mcp` |
+| **[k11 Selenium QA](https://github.com/K11-Software-Solutions/k11techlab-selenium-qa-mcp)**<br>[![Glama](https://glama.ai/mcp/servers/K11-Software-Solutions/k11techlab-selenium-qa-mcp/badges/score.svg)](https://glama.ai/mcp/servers/K11-Software-Solutions/k11techlab-selenium-qa-mcp) | The same for Selenium, in **Python (pytest)** and **Java (JUnit 5 / TestNG)**. Fixes broken locators where they live, in Page Objects and `@FindBy` annotations, re-runs the tests and reverts any fix that doesn't pass. | [![PyPI](https://img.shields.io/pypi/v/k11-selenium-qa-mcp?label=PyPI)](https://pypi.org/project/k11-selenium-qa-mcp/)<br>`uvx k11-selenium-qa-mcp` |
+| **[LLM Assure](https://github.com/K11-Software-Solutions/k11techlab-llm-assurance-toolkit)**<br>[![Glama](https://glama.ai/mcp/servers/K11-Software-Solutions/k11techlab-llm-assurance-toolkit/badges/score.svg)](https://glama.ai/mcp/servers/K11-Software-Solutions/k11techlab-llm-assurance-toolkit) | Red-teams your chatbot, RAG app or agent: 41 probes mapped to the OWASP Top 10 for LLM Applications, adaptive multi-turn attacks driven by Claude, a CI gate and an audit-ready HTML report. | [Install from GitHub](https://github.com/K11-Software-Solutions/k11techlab-llm-assurance-toolkit#mcp-server-red-teaming-with-claude) |
+
+The Playwright and Selenium servers are also in the official [MCP Registry](https://registry.modelcontextprotocol.io) and install as **Claude Code plugins** with `/story-to-test` and `/heal-tests` commands:
+
+```text
+/plugin marketplace add K11-Software-Solutions/k11techlab-playwright-qa-mcp
+/plugin marketplace add K11-Software-Solutions/k11techlab-selenium-qa-mcp
+```
+
+Want help rolling these out across a test suite, a workshop for your team, or an MCP server built for your stack? [Get in touch](https://k11softwaresolutions.com/contact).
+
+---
+
 ## 🧭 Start here: the AI Quality Engineering curriculum
 
 New to testing AI? Start with the roadmap, then work through the labs in order. Each one ends with CI quality gates and negative controls, so you can see the tests catch real failures.
@@ -56,7 +77,7 @@ A six-paper, peer-reviewed series. Every paper ships with open-source reference 
 
 ## 🛠️ Tools you can use today
 
-- **[LLM Assurance Toolkit](https://github.com/K11-Software-Solutions/k11techlab-llm-assurance-toolkit)**: 41 OWASP LLM Top 10 probes, a CI quality gate, audit-ready HTML reports, an LLM judge, and an MCP server for agent-driven red-teaming.
+- **[LLM Assurance Toolkit](https://github.com/K11-Software-Solutions/k11techlab-llm-assurance-toolkit)**: the CLI and CI gate behind the LLM Assure MCP server above, with 41 OWASP LLM Top 10 probes and audit-ready HTML reports.
 - **[LLM Eval Agent](https://github.com/K11-Software-Solutions/llm-eval-agent-app)**: a GitHub App that posts bias, fairness and robustness scorecards as Check Runs on every pull request.
 - **[Microservice QA System](https://github.com/K11-Software-Solutions/k11techlab-microservice-qa-system)**: catches breaking API contract changes at PR time (100% precision and recall across 74 real pull requests).
 - **[Carbon-Aware CI Scheduler](https://github.com/K11-Software-Solutions/k11techlab-carbon-aware-ci-scheduler)**: routes test suites to low-carbon grid windows, cutting CI emissions by 31.4% with no quality regression.
