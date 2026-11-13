@@ -41,6 +41,15 @@ All six are in the official [MCP Registry](https://registry.modelcontextprotocol
 /plugin marketplace add K11-Software-Solutions/k11techlab-release-gate-mcp
 ```
 
+### 🛡️ The agent on top: Release Readiness
+
+**[k11 Release Readiness Agent](https://github.com/K11-Software-Solutions/k11techlab-release-readiness-agent)** is a Claude Code plugin that answers *can we ship this branch?* `/release-readiness:check` works out which checks the change needs, gathers the evidence with the servers above in parallel sub-agents, and returns the Release Gate's deterministic verdict with every blocker explained. It never runs against production and never changes anything without asking.
+
+```text
+/plugin marketplace add K11-Software-Solutions/k11techlab-release-readiness-agent
+/plugin install release-readiness@k11-release-readiness
+```
+
 Want help rolling these out across a test suite, a workshop for your team, or an MCP server built for your stack? [Get in touch](https://k11softwaresolutions.com/contact).
 
 ---
