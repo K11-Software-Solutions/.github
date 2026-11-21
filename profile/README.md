@@ -58,6 +58,14 @@ All ten are in the official [MCP Registry](https://registry.modelcontextprotocol
 /plugin install release-readiness@k11-release-readiness
 ```
 
+### ✅ In every pull request: the Release Gate Action
+
+**[k11 Release Gate Action](https://github.com/K11-Software-Solutions/k11techlab-release-gate-action)** puts the same decision in CI: one line in a workflow, and every pull request gets the verdict as a comment, updated on each push, with the reasons, the evidence files and an audit record. It works out from the diff which evidence the change needs (change a Kafka consumer and integration tests become required).
+
+```yaml
+- uses: K11-Software-Solutions/k11techlab-release-gate-action@v1
+```
+
 Want help rolling these out across a test suite, a workshop for your team, or an MCP server built for your stack? [Get in touch](https://k11softwaresolutions.com/contact).
 
 ---
