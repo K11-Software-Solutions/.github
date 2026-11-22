@@ -66,6 +66,8 @@ All ten are in the official [MCP Registry](https://registry.modelcontextprotocol
 - uses: K11-Software-Solutions/k11techlab-release-gate-action@v1
 ```
 
+**See it live:** the [K11 Shop demo](https://github.com/K11-Software-Solutions/k11techlab-release-gate-demo) has five open pull requests (ship, three blocks and a sign-off), each decided from unit, API, contract, security and Kafka integration evidence.
+
 Want help rolling these out across a test suite, a workshop for your team, or an MCP server built for your stack? [Get in touch](https://k11softwaresolutions.com/contact).
 
 ---
