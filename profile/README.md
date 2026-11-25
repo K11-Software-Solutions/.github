@@ -57,7 +57,7 @@ A six-paper series. Every paper with an implementation ships open-source referen
 
 ### Research prototypes and results
 
-- **[Microservice QA System](https://github.com/K11-Software-Solutions/k11techlab-microservice-qa-system)**: a LangGraph multi-agent pipeline that catches breaking API contract changes at PR time by traversing a graph of consuming services (100% precision and recall across 74 real pull requests).
+- **[Microservice QA System](https://github.com/K11-Software-Solutions/k11techlab-microservice-qa-system)**: a LangGraph multi-agent pipeline that catches breaking API contract changes at PR time by traversing a graph of consuming services (100% precision and recall across 74 evaluated changes: 15 controlled scenarios and 59 real-world open-source pull requests).
 - **[Carbon-Aware CI Scheduler](https://github.com/K11-Software-Solutions/k11techlab-carbon-aware-ci-scheduler)**: routes test suites to low-carbon grid windows, cutting CI emissions by 31.4% with no quality regression.
 - **[Agentic AI QA System](https://github.com/K11-Software-Solutions/k11techlab-agentic-ai-qa-system)**: CI/CD quality orchestration with 14 agents, MCP integrations, Slack and Jira workflows, and quality scoring.
 - **[LLM Eval Agent](https://github.com/K11-Software-Solutions/llm-eval-agent-app)**: a GitHub App that posts bias, fairness and robustness scorecards as Check Runs on every pull request ([demo target](https://github.com/K11-Software-Solutions/llm-eval-demo-target)).
