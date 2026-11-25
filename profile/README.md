@@ -2,11 +2,11 @@
 
 <img src="https://raw.githubusercontent.com/K11-Software-Solutions/.github/main/assets/K11_Hero_banner.png" alt="K11 Tech Lab — Test AI systems like you test software: an AI quality gate passing five checks and catching one failure" width="100%">
 
-# K11 Tech Lab
+# K11 Software Solutions LLC
 
-**Open-source labs for testing AI systems the way we test software: runnable, measurable, gated in CI.**
+**Technology R&D and product development for trustworthy AI, intelligent software quality, and engineering automation.**
 
-Every lab runs locally with **no API key**. Clone, `pytest`, and watch an AI system pass or fail.
+Through **K11 Tech Lab**, our open-source research and engineering initiative, we turn research into working developer tools, AI assurance platforms, and reproducible engineering experiments.
 
 [![Follow on GitHub](https://img.shields.io/github/followers/K11-Software-Solutions?label=Follow&style=social)](https://github.com/K11-Software-Solutions)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Kavita%20Jadhav-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kavita-jadhav-tech/)
@@ -17,7 +17,59 @@ Every lab runs locally with **no API key**. Clone, `pytest`, and watch an AI sys
 
 ---
 
-## 🤖 MCP servers for QA teams
+## 🎯 Our mission and product direction
+
+K11 Software Solutions is a woman-founded technology venture focused on developing practical, evidence-driven systems for the AI-enabled software lifecycle. Our goal is to make software and AI systems more reliable, observable, secure, and accountable, from development through release.
+
+| Focus | What we build |
+|---|---|
+| [Research & Development](#-research-and-development) | Agentic AI orchestration, AI evaluation, uncertainty-aware quality decisions, cross-repository impact analysis, and sustainable CI/CD. |
+| [Products & Developer Tools](#-from-research-to-products-developer-tools) | MCP servers, AI assurance toolkits, GitHub integrations, and evidence-based release-readiness workflows. |
+| [Open-Source Learning & Enablement](#-open-source-learning-and-enablement) | Runnable labs, automation frameworks, reference implementations, and technical education that help engineers evaluate and adopt AI responsibly. |
+
+---
+
+## 🔬 Research and development
+
+### Research areas
+
+| Area | Questions we work on | Where it shows up |
+|---|---|---|
+| **Agentic AI orchestration** | How can multi-agent pipelines run CI/CD quality checks, and where must a person stay in the loop? | [agentic-ai-qa-system](https://github.com/K11-Software-Solutions/k11techlab-agentic-ai-qa-system), [Release Readiness Agent](https://github.com/K11-Software-Solutions/k11techlab-release-readiness-agent) |
+| **AI evaluation** | How far can an evaluator or LLM judge be trusted, and how do we gate bias, fairness and robustness in CI? | [llm-eval-agent-app](https://github.com/K11-Software-Solutions/llm-eval-agent-app), [ai-evaluation-science-lab](https://github.com/K11-Software-Solutions/ai-evaluation-science-lab) |
+| **Uncertainty-aware quality decisions** | How do we replace pass/fail verdicts with decisions that account for where the uncertainty comes from? | Papers 5 and 6 below, [k11 Release Gate](https://github.com/K11-Software-Solutions/k11techlab-release-gate-mcp) |
+| **Cross-repository impact analysis** | Which services does a change break, and can we tell before merge? | [microservice-qa-system](https://github.com/K11-Software-Solutions/k11techlab-microservice-qa-system), [k11 API Contract QA](https://github.com/K11-Software-Solutions/k11techlab-api-contract-qa-mcp) |
+| **Sustainable CI/CD** | Can test pipelines cut carbon emissions without losing quality? | [carbon-aware-ci-scheduler](https://github.com/K11-Software-Solutions/k11techlab-carbon-aware-ci-scheduler) |
+| **Autonomous test quality management** | Can a cost-bounded LLM pipeline maintain a test suite on its own? | [adaptive-test-intelligence](https://github.com/K11-Software-Solutions/adaptive-test-intelligence) |
+
+### 📄 Peer-reviewed series: Agentic AI Quality Engineering (IJECS, 2026)
+
+A six-paper series. Every paper with an implementation ships open-source reference code.
+
+| Paper | Code |
+|-------|------|
+| [Autonomous CI/CD Quality Assurance Using LangGraph Multi-Agent Orchestration and Risk-Proportionate Human-in-the-Loop Control](https://doi.org/10.18535/ijecs/v15i06.5563) | [agentic-ai-qa-system](https://github.com/K11-Software-Solutions/k11techlab-agentic-ai-qa-system) |
+| [LLM Safety as a Quality Gate: Bias, Fairness and Robustness Evaluation in CI/CD via GitHub Apps](https://doi.org/10.18535/ijecs.v15i07.5576) | [llm-eval-agent-app](https://github.com/K11-Software-Solutions/llm-eval-agent-app) |
+| [Beyond Static Gates: Closing the Detect–Fix–Learn Loop in Agentic CI/CD Quality Assurance](https://doi.org/10.18535/ijecs.v15i07.5577) | — |
+| [Cross-Repository Contract Testing and Change Impact Analysis in Microservice CI/CD](https://doi.org/10.18535/ijecs.v15i07.5599) | [microservice-qa-system](https://github.com/K11-Software-Solutions/k11techlab-microservice-qa-system) |
+| [Beyond Binary Verdicts: Aleatoric Uncertainty Quantification in Agentic CI/CD Quality Pipelines](https://doi.org/10.18535/ijecs.v15i07.5614) | — |
+| [Beyond a Single Threshold: Uncertainty Source Classification and Type-Stratified Conformal Prediction for Agentic CI/CD](https://doi.org/10.18535/ijecs.v15i08.5684) | — |
+
+### Research prototypes and results
+
+- **[Microservice QA System](https://github.com/K11-Software-Solutions/k11techlab-microservice-qa-system)**: a LangGraph multi-agent pipeline that catches breaking API contract changes at PR time by traversing a graph of consuming services (100% precision and recall across 74 real pull requests).
+- **[Carbon-Aware CI Scheduler](https://github.com/K11-Software-Solutions/k11techlab-carbon-aware-ci-scheduler)**: routes test suites to low-carbon grid windows, cutting CI emissions by 31.4% with no quality regression.
+- **[Agentic AI QA System](https://github.com/K11-Software-Solutions/k11techlab-agentic-ai-qa-system)**: CI/CD quality orchestration with 14 agents, MCP integrations, Slack and Jira workflows, and quality scoring.
+- **[LLM Eval Agent](https://github.com/K11-Software-Solutions/llm-eval-agent-app)**: a GitHub App that posts bias, fairness and robustness scorecards as Check Runs on every pull request ([demo target](https://github.com/K11-Software-Solutions/llm-eval-demo-target)).
+- **[Adaptive Test Intelligence](https://github.com/K11-Software-Solutions/adaptive-test-intelligence)**: a seven-stage, cost-bounded LLM pipeline for autonomous test quality management.
+
+---
+
+## 🧰 From research to products: developer tools
+
+The research above becomes tools engineers can install today.
+
+### 🤖 MCP servers for QA teams
 
 Give Claude (or any MCP client) QA tools it can't fake. Each server checks its work against the real system and leaves evidence a reviewer can follow.
 
@@ -68,13 +120,18 @@ All ten are in the official [MCP Registry](https://registry.modelcontextprotocol
 
 **See it live:** the [K11 Shop demo](https://github.com/K11-Software-Solutions/k11techlab-release-gate-demo) has five open pull requests (ship, three blocks and a sign-off), each decided from unit, API, contract, security and Kafka integration evidence.
 
-Want help rolling these out across a test suite, a workshop for your team, or an MCP server built for your stack? [Get in touch](https://k11softwaresolutions.com/contact).
+### Other tools
+
+- **[LLM Assurance Toolkit](https://github.com/K11-Software-Solutions/k11techlab-llm-assurance-toolkit)**: the CLI and CI gate behind the LLM Assure MCP server, with 41 OWASP LLM Top 10 probes and audit-ready HTML reports.
+- **[LLM Testing Hub](https://github.com/K11-Software-Solutions/llm-testing-hub)**: prompt regression, red-teaming and risk audits with Promptfoo, LangTest and DeepEval.
 
 ---
 
-## 🧭 Start here: the AI Quality Engineering curriculum
+## 📚 Open-source learning and enablement
 
-New to testing AI? Start with the roadmap, then work through the labs in order. Each one ends with CI quality gates and negative controls, so you can see the tests catch real failures.
+### 🧭 AI Quality Engineering curriculum
+
+New to testing AI? Start with the roadmap, then work through the labs in order. Each one ends with CI quality gates and negative controls, so you can see the tests catch real failures. Every lab runs locally with **no API key**.
 
 | # | Lab | What you'll learn to test |
 |---|-----|---------------------------|
@@ -90,34 +147,26 @@ New to testing AI? Start with the roadmap, then work through the labs in order. 
 | 9 | [ai-production-monitoring-lab](https://github.com/K11-Software-Solutions/ai-production-monitoring-lab) | Tracing, online evals, drift, guardrails, shadow releases, incident triage |
 | 🎓 | [**ai-assurance-case-lab**](https://github.com/K11-Software-Solutions/ai-assurance-case-lab) | Capstone: turn the evidence into one release argument mapped to NIST AI RMF, ISO/IEC 42001 and the EU AI Act |
 
+### 🏗️ AI Engineering series
+
+Build AI systems end to end, from LLM APIs to agents running in production.
+
+| # | Lab | What you'll build |
+|---|-----|-------------------|
+| 1 | [**becoming-an-ai-engineer**](https://github.com/K11-Software-Solutions/becoming-an-ai-engineer) | The hub: LLM APIs, structured outputs, tool calling, agents, MCP, coding-assistant extensions, AWS/EKS |
+| 2 | [rag-engineering-lab](https://github.com/K11-Software-Solutions/rag-engineering-lab) | Chunking, BM25, dense and hybrid retrieval, grounded answers with checked citations, two-layer RAG evals |
+| 3 | [agent-sdk-lab](https://github.com/K11-Software-Solutions/agent-sdk-lab) | One triage agent built four ways (hand-written loop, LangGraph, OpenAI Agents SDK, Claude Agent SDK), compared on one eval |
+| 4 | [mcp-server-engineering-lab](https://github.com/K11-Software-Solutions/mcp-server-engineering-lab) | An MCP server with typed tools, scoped auth, a breaking-change contract gate and protocol-level tests |
+| 5 | [coding-assistant-extensions-lab](https://github.com/K11-Software-Solutions/coding-assistant-extensions-lab) | Team AI workflows for Claude Code, Cursor, Copilot and AGENTS.md, linted and tested |
+| 6 | [pdlc-agents-lab](https://github.com/K11-Software-Solutions/pdlc-agents-lab) | Design review, PR review, test generation and release-notes agents, each with an objective eval |
+| 7 | [shipping-agents-lab](https://github.com/K11-Software-Solutions/shipping-agents-lab) | Agents as a hardened container service, eval and promotion gates, shadow and canary rollout |
+| 8 | [agents-on-aws-lab](https://github.com/K11-Software-Solutions/agents-on-aws-lab) | Terraform for EKS, IRSA, S3, ECR and Secrets Manager; a hardened Helm chart; mocked-AWS infra tests |
+| 9 | [operating-agents-lab](https://github.com/K11-Software-Solutions/operating-agents-lab) | OpenTelemetry traces and metrics, retries, circuit breaking, budgets, SLO burn-rate alerts, game days |
+| 🎓 | [**kestrel-pdlc-platform**](https://github.com/K11-Software-Solutions/kestrel-pdlc-platform) | Capstone: nine pinned components, integration checks, re-checkable evidence and an assurance case per release target |
+
 > ⭐ **Star the labs you use.** It's the fastest way to help other engineers find them.
 
----
-
-## 📄 Research: Agentic AI Quality Engineering (IJECS, 2026)
-
-A six-paper, peer-reviewed series. Every paper ships with open-source reference code.
-
-| Paper | Code |
-|-------|------|
-| [Autonomous CI/CD Quality Assurance Using LangGraph Multi-Agent Orchestration and Risk-Proportionate Human-in-the-Loop Control](https://doi.org/10.18535/ijecs/v15i06.5563) | [agentic-ai-qa-system](https://github.com/K11-Software-Solutions/k11techlab-agentic-ai-qa-system) |
-| [LLM Safety as a Quality Gate: Bias, Fairness and Robustness Evaluation in CI/CD via GitHub Apps](https://doi.org/10.18535/ijecs.v15i07.5576) | [llm-eval-agent-app](https://github.com/K11-Software-Solutions/llm-eval-agent-app) |
-| [Beyond Static Gates: Closing the Detect–Fix–Learn Loop in Agentic CI/CD Quality Assurance](https://doi.org/10.18535/ijecs.v15i07.5577) | — |
-| [Cross-Repository Contract Testing and Change Impact Analysis in Microservice CI/CD](https://doi.org/10.18535/ijecs.v15i07.5599) | [microservice-qa-system](https://github.com/K11-Software-Solutions/k11techlab-microservice-qa-system) |
-| [Beyond Binary Verdicts: Aleatoric Uncertainty Quantification in Agentic CI/CD Quality Pipelines](https://doi.org/10.18535/ijecs.v15i07.5614) | — |
-| [Beyond a Single Threshold: Uncertainty Source Classification and Type-Stratified Conformal Prediction for Agentic CI/CD](https://doi.org/10.18535/ijecs.v15i08.5684) | — |
-
----
-
-## 🛠️ Tools you can use today
-
-- **[LLM Assurance Toolkit](https://github.com/K11-Software-Solutions/k11techlab-llm-assurance-toolkit)**: the CLI and CI gate behind the LLM Assure MCP server above, with 41 OWASP LLM Top 10 probes and audit-ready HTML reports.
-- **[LLM Eval Agent](https://github.com/K11-Software-Solutions/llm-eval-agent-app)**: a GitHub App that posts bias, fairness and robustness scorecards as Check Runs on every pull request.
-- **[Microservice QA System](https://github.com/K11-Software-Solutions/k11techlab-microservice-qa-system)**: catches breaking API contract changes at PR time (100% precision and recall across 74 real pull requests).
-- **[Carbon-Aware CI Scheduler](https://github.com/K11-Software-Solutions/k11techlab-carbon-aware-ci-scheduler)**: routes test suites to low-carbon grid windows, cutting CI emissions by 31.4% with no quality regression.
-- **[LLM Testing Hub](https://github.com/K11-Software-Solutions/llm-testing-hub)**: prompt regression, red-teaming and risk audits with Promptfoo, LangTest and DeepEval.
-
-## 🧪 Test automation frameworks
+### 🧪 Test automation frameworks
 
 Production-style starters with page objects, CI pipelines, reporting and AI-assisted test generation.
 
@@ -130,6 +179,22 @@ Production-style starters with page objects, CI pipelines, reporting and AI-assi
 | Selenium + Java | [selenium-java-fullstack-framework](https://github.com/K11-Software-Solutions/k11TechLab-selenium-java-fullstack-framework) |
 | Cucumber BDD + Java | [cucumber-bdd-java-fullstack-framework](https://github.com/K11-Software-Solutions/k11TechLab-cucumber-bdd-java-fullstack-framework) |
 | Serenity BDD Screenplay | [serenity-screenplay-framework](https://github.com/K11-Software-Solutions/k11TechLab-serenity-screenplay-framework) |
+
+### 👑 Community
+
+**[AI Quality Queens](https://github.com/kavitaj11/ai-quality-queens)**: a community learning guide for testers, from a first boundary test to evaluating an AI agent's decisions.
+
+---
+
+## 🛡️ Our commitment to responsible AI
+
+We emphasize measurable evaluation, transparent evidence, reproducibility, risk-proportionate human oversight, and safeguards around automated decisions.
+
+Our research-backed technologies and open-source releases form the foundation for ongoing development of reusable, scalable software products.
+
+## 🤝 Consulting, implementation and training
+
+We also provide specialized consulting, implementation support, and technical training as complementary capabilities, helping engineering teams adopt and extend these technologies: rolling the tools out across a test suite, a workshop for your team, or an MCP server built for your stack. [Get in touch](https://k11softwaresolutions.com/contact).
 
 ---
 
