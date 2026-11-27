@@ -15,6 +15,8 @@ Through **K11 Tech Lab**, our open-source research and engineering initiative, w
 
 </div>
 
+> 🌟 **News:** Founder Kavita Jadhav is a **finalist** for **Female Founder Rising Star** (Cybersecurity, Responsible AI & Developer Assurance) at the **Women in Tech & AI Global Awards 2026** by WomenTech Network and Women AI Builders. Winners are announced on December 3. [Support by sharing the nominee page →](https://www.womentech.net/nominee/all/all/172123)
+
 ---
 
 ## 🎯 Our mission and product direction
@@ -200,7 +202,7 @@ We also provide specialized consulting, implementation support, and technical tr
 
 ## 👩‍💻 Who's behind this
 
-K11 Tech Lab is run by **[Kavita Jadhav](https://www.linkedin.com/in/kavita-jadhav-tech/)**, Senior SDET and AI Quality Engineer with 12+ years of test automation for VMware, E\*TRADE/Morgan Stanley, Verizon, Delta Dental and Wells Fargo.
+K11 Tech Lab is run by **[Kavita Jadhav](https://www.linkedin.com/in/kavita-jadhav-tech/)**, Senior SDET and AI Quality Engineer with 11+ years of test automation for VMware, E\*TRADE/Morgan Stanley, Verizon, Delta Dental and Wells Fargo.
 
 **Stay in the loop**
 - 📬 [Trustworthy AI Engineering](https://www.linkedin.com/newsletters/trustworthy-ai-engineering-7521267953363832832/): practical AI assurance, every two weeks
